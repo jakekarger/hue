@@ -23,7 +23,7 @@ flake8-docstrings==1.1.0
 coverage==4.4.1
 
 # Documentation
-Sphinx==1.6.3
+Sphinx==3.0.4
 
 # Packaging Linters
 check-manifest==0.35
@@ -34,6 +34,7 @@ tox==2.7.0
 
 # Better interactive debugging
 gnureadline==6.3.3
-ipython==5.4.1
+ipython==7.16.3
 ipdb==0.10.3
 ipdbplugin==1.4.5
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability

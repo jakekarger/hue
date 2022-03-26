@@ -5,14 +5,17 @@
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-
     "clean-static": "rm -rf static/js/gethue/*",
     "copy-static": "cp -r node_modules/gethue/components static/js/gethue/ && cp -r node_modules/gethue/parsers static/js/gethue/",
-    "update-static": "npm run clean-static && npm run copy-static"
+    "update-static": "npm run clean-static && npm run copy-static",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
-    "gethue": "4.8.1"
-  }
+    "gethue": "4.9.9",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }

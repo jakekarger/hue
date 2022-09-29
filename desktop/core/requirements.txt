@@ -48,7 +48,7 @@ phoenixdb==1.1.0
 prompt-toolkit==2.0.10
 protobuf==3.17.0
 pyformance==0.3.2
-pylint==2.6.0
+pylint==2.7.0
 pylint-django==2.3.0
 pysaml2>=4.5.0
 pytest==6.0.2

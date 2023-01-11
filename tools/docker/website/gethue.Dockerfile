@@ -20,7 +20,7 @@ RUN hugo --source docs/gethue --baseURL ""
 
 
 
-FROM nginx:1.17-alpine
+FROM nginx:1.23.3-alpine
 ARG lang=en
 COPY --from=build /gethue/docs/gethue/public/${lang} /usr/share/nginx/html
 

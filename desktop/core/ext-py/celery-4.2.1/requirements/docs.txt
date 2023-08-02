@@ -1,4 +1,4 @@
 git+https://github.com/celery/sphinx_celery.git
-Sphinx==1.7.1
+Sphinx==3.3.0
 typing
 -r extras/sqlalchemy.txt

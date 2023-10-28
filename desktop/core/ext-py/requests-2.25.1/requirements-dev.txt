@@ -4,3 +4,4 @@ pytest-httpbin<1.0
 pytest-mock==2.0.0
 httpbin==0.7.0
 wheel
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability

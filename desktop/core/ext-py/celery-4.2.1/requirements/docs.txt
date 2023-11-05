@@ -2,3 +2,4 @@ git+https://github.com/celery/sphinx_celery.git
 Sphinx==1.7.1
 typing
 -r extras/sqlalchemy.txt
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability

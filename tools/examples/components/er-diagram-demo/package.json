@@ -4,7 +4,9 @@
   "description": "Demo app for er-diagram component",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,8 @@
   },
   "homepage": "https://github.com/cloudera/hue#readme",
   "dependencies": {
-    "gethue": "4.7.8"
-  }
+    "gethue": "4.9.9",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }

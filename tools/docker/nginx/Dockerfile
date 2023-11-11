@@ -5,7 +5,7 @@ ARG tag=latest
 FROM ${registry}/hue:${tag} as base
 
 
-FROM nginx
+FROM nginx:1.21
 LABEL description="Static files of Hue service"
 
 COPY --from=base /usr/share/hue/build/static/ /usr/share/nginx/html/hue/static

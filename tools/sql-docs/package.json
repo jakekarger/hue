@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "libxmljs": "^0.19.5",
+    "libxmljs": "^0.19.8",
     "epub": "^1.1.0"
   }
 }

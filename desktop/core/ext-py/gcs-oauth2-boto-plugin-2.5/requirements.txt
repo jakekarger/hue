@@ -9,3 +9,4 @@ six>=1.6.1
 # Extra requirements only needed for testing, 'dev' label in setup.py.
 freezegun
 mock
+cryptography>=42.0.2 # not directly required, pinned by Snyk to avoid a vulnerability

@@ -60,7 +60,7 @@
     "qs": "6.9.4",
     "regenerator-runtime": "^0.13.3",
     "removeNPMAbsolutePaths": "^1.0.4",
-    "sanitize-html": "^2.1.2",
+    "sanitize-html": "^2.12.1",
     "select2": "3.5.1",
     "selectize": "0.12.6",
     "selectize-plugin-clear": "0.0.3",

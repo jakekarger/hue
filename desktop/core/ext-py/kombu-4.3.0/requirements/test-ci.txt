@@ -12,3 +12,4 @@ msgpack-python>0.2.0
 -r extras/brotli.txt
 -r extras/zstd.txt
 sqlalchemy
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability

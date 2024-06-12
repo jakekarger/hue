@@ -3,7 +3,7 @@
 #
 
 # Latest Django
-Django>=1.11,<2.0
+Django>=3.2.15,<2.0
 
 # This project
 -e .
@@ -34,6 +34,7 @@ tox==2.7.0
 
 # Better interactive debugging
 gnureadline==6.3.3
-ipython==5.4.1
+ipython==7.16.3
 ipdb==0.10.3
 ipdbplugin==1.4.5
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability

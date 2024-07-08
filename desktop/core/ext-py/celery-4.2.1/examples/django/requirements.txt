@@ -1,3 +1,4 @@
 django>=1.9.8
 sqlalchemy>=1.0.14
 celery>=4.0
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability

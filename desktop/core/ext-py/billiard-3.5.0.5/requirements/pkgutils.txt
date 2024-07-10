@@ -3,3 +3,4 @@ wheel>=0.29.0
 flake8>=2.5.4
 flakeplus>=1.1
 tox>=2.3.1
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability

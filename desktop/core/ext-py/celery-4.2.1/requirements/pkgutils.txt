@@ -7,3 +7,4 @@ tox>=2.3.1
 sphinx2rst>=1.0
 cyanide>=1.0.1
 bumpversion
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability

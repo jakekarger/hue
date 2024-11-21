@@ -23,7 +23,7 @@ WORKDIR /docs
 RUN hugo
 
 
-FROM nginx:1.17-alpine
+FROM nginx:1.21.3-alpine
 COPY --from=build /docs/public /usr/share/nginx/html
 
 EXPOSE 80

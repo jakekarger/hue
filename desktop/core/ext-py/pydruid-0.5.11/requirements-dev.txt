@@ -1,7 +1,8 @@
-black==19.10b0
+black==24.3.0
 flake8-mypy==17.8.0
 flake8==3.8.2
 ipdb==0.12
 pip-tools==4.4.0
 pre-commit==1.17.0
 tox==3.11.1
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability

@@ -1,3 +1,5 @@
 celery>=4.0,<5.0
 django-timezone-field>=2.0
 python-crontab>=2.3.4
+django>=4.2.27 # not directly required, pinned by Snyk to avoid a vulnerability
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
